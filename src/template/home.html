@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Ksolves</title>
+    <style>
+      .img-container {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="https://i1.wp.com/www.thestartupjournal.com/wp-content/uploads/2018/03/3.png" height="110" width="260">
+    <h2 style="text-align:center;">Mask and No Mask Prediction</h2>
+    <div class="img-container">
+      <img src="{{ url_for('video_feed') }}" align="center">
+    </div>
+    <h3 style="color:green;" align="center">Green : Allowed to enter </h3>
+    <h3 style="color:red;" align="center">Red :Access denied </h3>
+    <p align="center">Smart camera that detects if the person is wearing mask or not .</p>
+    <p align="center">Basically behind the scene it is using computer vision techniques to detect the face first and then over that face it applies convloutional neural network to get the predictions (face with mask or without mask )</p>
+
+
+
+
+  </body>
+</html>
